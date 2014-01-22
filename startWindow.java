@@ -12,7 +12,7 @@ public class startWindow implements ActionListener
 		title.setVisible(true);
 		title.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		title.setSize(800, 600);
-		title.setResizable(false);
+		title.setResizable(true);
 		
 		JButton begin = new JButton();
 		begin.setBounds(3, 5, 15, 15);
